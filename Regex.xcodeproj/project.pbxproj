@@ -52,6 +52,9 @@
 		CED611F11C2A2CC9008D212A /* Regex.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6CDF631BE239DE00AE6393 /* Regex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CED611F21C2A2D3C008D212A /* RegexSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6CDF6F1BE239DE00AE6393 /* RegexSpec.swift */; };
 		CED611F31C2A2D3C008D212A /* OptionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE322FBD1C168146005741D5 /* OptionsSpec.swift */; };
+		CEDD2E261C3DE2EC003D18CE /* Issue30Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD2E241C3DE24B003D18CE /* Issue30Spec.swift */; };
+		CEDD2E271C3DE2EC003D18CE /* Issue30Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD2E241C3DE24B003D18CE /* Issue30Spec.swift */; };
+		CEDD2E281C3DE2ED003D18CE /* Issue30Spec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD2E241C3DE24B003D18CE /* Issue30Spec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +144,7 @@
 		CED611DF1C2A2C2E008D212A /* RegexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED611F41C2A2D7C008D212A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/tvOS/Nimble.framework; sourceTree = "<group>"; };
 		CED611F51C2A2D7C008D212A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/tvOS/Quick.framework; sourceTree = "<group>"; };
+		CEDD2E241C3DE24B003D18CE /* Issue30Spec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue30Spec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +251,7 @@
 			children = (
 				CE6CDF6F1BE239DE00AE6393 /* RegexSpec.swift */,
 				CE322FBD1C168146005741D5 /* OptionsSpec.swift */,
+				CEDD2E241C3DE24B003D18CE /* Issue30Spec.swift */,
 				CE6CDF7B1BE23A2E00AE6393 /* Supporting Files */,
 			);
 			path = Tests;
@@ -576,6 +581,7 @@
 			files = (
 				CE6CDF701BE239DE00AE6393 /* RegexSpec.swift in Sources */,
 				CE4BE2941C168183005E4D4F /* OptionsSpec.swift in Sources */,
+				CEDD2E261C3DE2EC003D18CE /* Issue30Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +603,7 @@
 			files = (
 				CEC768841BE99B7C0066BA1E /* RegexSpec.swift in Sources */,
 				CE4BE2951C168183005E4D4F /* OptionsSpec.swift in Sources */,
+				CEDD2E271C3DE2EC003D18CE /* Issue30Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -630,6 +637,7 @@
 			files = (
 				CED611F21C2A2D3C008D212A /* RegexSpec.swift in Sources */,
 				CED611F31C2A2D3C008D212A /* OptionsSpec.swift in Sources */,
+				CEDD2E281C3DE2ED003D18CE /* Issue30Spec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
